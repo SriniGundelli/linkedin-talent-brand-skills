@@ -10,6 +10,8 @@ description: >-
 
 # li-profile
 
+> Also apply the **House rules** section of `~/.claude/linkedin/voice.md` (spelling, banned words, approval). Nothing is posted or sent without the user's yes.
+
 A profile is not a resume. A resume answers "what have you done". A profile
 answers "should I message this person", and it answers it in about four
 seconds, from the headline and the first two lines of the about.

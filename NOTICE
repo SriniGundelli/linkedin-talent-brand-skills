@@ -1,0 +1,29 @@
+This repository is a derivative work.
+
+Original work
+  linkedin-agent-skill
+  Copyright (c) 2026 Jake Schincariol
+  https://github.com/Jakeschincariol/linkedin-agent-skill
+  Licensed under the MIT License.
+
+  Carried over, with small changes: the eleven core skills (li-post, li-comment,
+  li-reply, li-profile, li-plan, li-human, li-carousel, li-repurpose, li-dm,
+  li-inbox, li-audit), hooks.json, slop.json, rubric.json, humanize.py,
+  detect.py and templates/voice.md.
+
+  Changes made to the original files: a "House rules" line in each core
+  SKILL.md pointing at voice.md; a House rules section in templates/voice.md;
+  a --extra option on humanize.py and detect.py that merges add-on lexicons.
+  slop.json, hooks.json, rubric.json and the scoring logic are unchanged.
+
+Additions
+  Copyright (c) 2026 BalanceX.ai and contributors
+  Licensed under the MIT License (see LICENSE).
+
+  The nineteen skills for recruitment marketing, personal branding, company
+  content and measurement, the lexicons, the helper scripts, tests, CI and
+  documentation.
+
+The MIT licence requires that the copyright and permission notice be kept in
+all copies or substantial portions of the software. Forks must keep this NOTICE
+and the LICENSE file.

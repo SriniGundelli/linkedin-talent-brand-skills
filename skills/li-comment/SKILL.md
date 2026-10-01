@@ -9,6 +9,8 @@ description: >-
 
 # li-comment
 
+> Also apply the **House rules** section of `~/.claude/linkedin/voice.md` (spelling, banned words, approval). Nothing is posted or sent without the user's yes.
+
 Commenting is the highest-leverage thing on LinkedIn and the easiest to do
 badly. A comment on a post with 400 reactions gets seen by more people than
 most of your own posts. A generic one gets seen by nobody and costs you

@@ -1,13 +1,21 @@
 {
-  "name": "linkedin-agent",
-  "description": "Eleven Claude skills that run a LinkedIn account: posts off 21 hook formulas, comments, replies, profile score, weekly plan, DMs, inbox triage, carousels, repurposing, audits, and a humanizer that strips the AI fingerprint and scores the draft before it goes out.",
+  "name": "linkedin-talent-brand",
+  "description": "Thirty Claude skills for LinkedIn: recruitment marketing, personal branding, company content and measurement, built on Jake Schincariol's LinkedIn agent skill. Drafts only; nothing is posted without your yes.",
   "version": "1.0.0",
   "author": {
-    "name": "Jake Schincariol",
-    "url": "https://opusjake.ai"
+    "name": "BalanceX.ai and contributors",
+    "url": "https://balancex.ai"
   },
-  "homepage": "https://opusjake.ai/r/linkedin-agent",
-  "repository": "https://github.com/Jakeschincariol/linkedin-agent-skill",
+  "homepage": "https://github.com/SriniGundelli/linkedin-talent-brand-skills",
+  "repository": "https://github.com/SriniGundelli/linkedin-talent-brand-skills",
   "license": "MIT",
-  "keywords": ["linkedin", "content", "writing", "humanizer", "social", "marketing"]
+  "keywords": [
+    "linkedin",
+    "recruiting",
+    "employer-brand",
+    "personal-brand",
+    "content",
+    "humanizer",
+    "marketing"
+  ]
 }

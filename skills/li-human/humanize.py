@@ -40,9 +40,21 @@ URL_RE = re.compile(r"https?://\S+|www\.\S+|\S+@\S+\.\S+")
 SENT_RE = re.compile(r"[^.!?\n]+[.!?]*")
 
 
-def load_lexicon(path=LEX):
+def load_lexicon(path=LEX, extras=()):
+    """Load slop.json, then merge any add-on lexicons (see lexicons/) on top.
+
+    An add-on may carry `words`, `phrases` and `structures`; they are appended
+    to the base lists, so a fork can add its own banned words without editing
+    slop.json.
+    """
     with open(path, encoding="utf-8") as fh:
-        return json.load(fh)
+        lex = json.load(fh)
+    for extra in extras:
+        with open(extra, encoding="utf-8") as fh:
+            add = json.load(fh)
+        for key in ("words", "phrases", "structures"):
+            lex.setdefault(key, []).extend(add.get(key, []))
+    return lex
 
 
 def _cp(spec):
@@ -234,10 +246,12 @@ def main():
     ap.add_argument("--report", action="store_true", help="print what changed, to stderr")
     ap.add_argument("--json", action="store_true", help="emit {text, report} as JSON")
     ap.add_argument("--lexicon", default=LEX, help="path to slop.json")
+    ap.add_argument("--extra", action="append", default=[],
+                    help="add-on lexicon to merge on top (repeatable), e.g. lexicons/uk-spelling.json")
     args = ap.parse_args()
 
     raw = sys.stdin.read() if args.input == "-" else open(args.input, encoding="utf-8").read()
-    lex = load_lexicon(args.lexicon)
+    lex = load_lexicon(args.lexicon, args.extra)
     clean, report = humanize(raw, lex)
 
     if args.json:

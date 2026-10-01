@@ -1,18 +1,18 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "linkedin-agent-skill",
-  "description": "The LinkedIn agent skill pack for Claude",
+  "name": "linkedin-talent-brand",
+  "description": "LinkedIn skills for recruiters, personal brands and company teams",
   "owner": {
-    "name": "Jake Schincariol",
-    "url": "https://opusjake.ai"
+    "name": "BalanceX.ai",
+    "url": "https://balancex.ai"
   },
   "plugins": [
     {
-      "name": "linkedin-agent",
-      "description": "Eleven Claude skills that run a LinkedIn account, including a humanizer that strips the AI fingerprint and scores the draft on a five-check panel.",
+      "name": "linkedin-talent-brand",
+      "description": "Thirty Claude skills for LinkedIn: recruitment marketing, personal branding, company content and measurement, built on Jake Schincariol's LinkedIn agent skill. Drafts only; nothing is posted without your yes.",
       "source": "./",
       "category": "productivity",
-      "homepage": "https://opusjake.ai/r/linkedin-agent"
+      "homepage": "https://github.com/SriniGundelli/linkedin-talent-brand-skills"
     }
   ]
 }

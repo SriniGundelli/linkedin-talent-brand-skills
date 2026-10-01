@@ -9,6 +9,8 @@ description: >-
 
 # li-carousel
 
+> Also apply the **House rules** section of `~/.claude/linkedin/voice.md` (spelling, banned words, approval). Nothing is posted or sent without the user's yes.
+
 Document posts are the highest-dwell format on LinkedIn, because a swipe is
 counted and a scroll is not. The format rewards one idea broken into steps.
 It punishes a text post cut into pieces.

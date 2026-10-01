@@ -9,6 +9,8 @@ description: >-
 
 # li-repurpose
 
+> Also apply the **House rules** section of `~/.claude/linkedin/voice.md` (spelling, banned words, approval). Nothing is posted or sent without the user's yes.
+
 One good long asset contains four to six posts. Most people extract one and
 throw the rest away.
 

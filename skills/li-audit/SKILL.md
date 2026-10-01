@@ -9,6 +9,8 @@ description: >-
 
 # li-audit
 
+> Also apply the **House rules** section of `~/.claude/linkedin/voice.md` (spelling, banned words, approval). Nothing is posted or sent without the user's yes.
+
 The only honest source of what works for an account is that account. Every
 rule in every LinkedIn guide, including the ones in this pack, is a prior. The
 user's own last 30 posts are the evidence.

@@ -9,6 +9,8 @@ description: >-
 
 # li-dm
 
+> Also apply the **House rules** section of `~/.claude/linkedin/voice.md` (spelling, banned words, approval). Nothing is posted or sent without the user's yes.
+
 The invite note is 200 characters. The first DM decides whether there is a
 second one. Neither is a pitch.
 

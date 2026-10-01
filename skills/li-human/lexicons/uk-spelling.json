@@ -1,0 +1,135 @@
+{
+  "note": "US to British spelling. Merge with: humanize.py draft.txt --extra ../../lexicons/uk-spelling.json. After a run, check proper nouns it may have touched (World Health Organization, Department of Labor).",
+  "words": [
+    {
+      "find": "optimize",
+      "replace": "optimise",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "optimizing",
+      "replace": "optimising",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "optimized",
+      "replace": "optimised",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "prioritize",
+      "replace": "prioritise",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "prioritizing",
+      "replace": "prioritising",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "prioritized",
+      "replace": "prioritised",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "analyze",
+      "replace": "analyse",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "analyzing",
+      "replace": "analysing",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "analyzed",
+      "replace": "analysed",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "organization",
+      "replace": "organisation",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "organizations",
+      "replace": "organisations",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "organizational",
+      "replace": "organisational",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "recognize",
+      "replace": "recognise",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "realize",
+      "replace": "realise",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "realized",
+      "replace": "realised",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "summarize",
+      "replace": "summarise",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "utilize",
+      "replace": "use",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "center",
+      "replace": "centre",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "behavior",
+      "replace": "behaviour",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "favorite",
+      "replace": "favourite",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "color",
+      "replace": "colour",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "labor",
+      "replace": "labour",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "judgment",
+      "replace": "judgement",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "artifact",
+      "replace": "artefact",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "specialize",
+      "replace": "specialise",
+      "family": "uk-spelling"
+    },
+    {
+      "find": "standardize",
+      "replace": "standardise",
+      "family": "uk-spelling"
+    }
+  ]
+}

@@ -11,6 +11,8 @@ description: >-
 
 # li-post
 
+> Also apply the **House rules** section of `~/.claude/linkedin/voice.md` (spelling, banned words, approval). Nothing is posted or sent without the user's yes.
+
 Turns one raw idea into a LinkedIn post that sounds like the person who
 posted it.
 

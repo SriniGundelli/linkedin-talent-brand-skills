@@ -9,6 +9,8 @@ description: >-
 
 # li-plan
 
+> Also apply the **House rules** section of `~/.claude/linkedin/voice.md` (spelling, banned words, approval). Nothing is posted or sent without the user's yes.
+
 The control room. Everything else in this pack executes; this decides what
 gets executed. Run it once a week, on the same day.
 

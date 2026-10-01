@@ -9,6 +9,8 @@ description: >-
 
 # li-inbox
 
+> Also apply the **House rules** section of `~/.claude/linkedin/voice.md` (spelling, banned words, approval). Nothing is posted or sent without the user's yes.
+
 Most LinkedIn inboxes are 80% noise, and the cost of that noise is that the
 20% goes unanswered for a week. This skill separates them, then writes only
 what is worth writing.

@@ -11,6 +11,8 @@ description: >-
 
 # li-human
 
+> Also apply the **House rules** section of `~/.claude/linkedin/voice.md` (spelling, banned words, approval). Nothing is posted or sent without the user's yes.
+
 Two tools live in this folder and they both actually run. Use them. Do not
 eyeball this.
 
@@ -96,3 +98,20 @@ behalf, and do not tell a user their text is undetectable.
    go again. Two rounds is normal. Five means the draft was written by
    formula, and the fix is a different draft, not more passes.
 5. Show the user the cleaned text and the score. Never the score alone.
+
+## Add-on lexicons
+
+Merge extra word lists on top of `slop.json` without editing it:
+
+```bash
+python3 humanize.py draft.txt --extra lexicons/uk-spelling.json --report
+python3 humanize.py job.txt   --extra lexicons/recruitment.json --report
+python3 detect.py   draft.txt --extra lexicons/recruitment.json
+```
+
+- `lexicons/uk-spelling.json` - US to British spelling. Check proper nouns
+  afterwards ("World Health Organization").
+- `lexicons/recruitment.json` - job-ad jargon and exclusionary wording, used by
+  `/li-job-post`.
+- Your own: copy either file, keep the `words` / `phrases` / `structures`
+  shape, and pass it with `--extra`. Forks keep their banned words here.

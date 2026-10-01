@@ -51,3 +51,20 @@ with `{{your number}}` in it.
 -
 -
 -
+
+## House rules
+
+Rules every skill must follow for you or your company. Delete what you do not
+need.
+
+- **Spelling:** (American / British / other). For British, run the humanizer
+  with `--extra lexicons/uk-spelling.json`.
+- **Banned words and phrases:** (add to your own lexicon file; see
+  `skills/li-human/lexicons/`)
+- **Punctuation:** (no em dashes / fine)
+- **Approval:** nothing is posted or sent without my explicit yes. Say who
+  approves if it is not you.
+- **Confidential:** clients, candidates, deals or numbers that must always be
+  anonymised.
+- **Legal and compliance:** regulated claims, quiet periods, disclosures,
+  pay-transparency and data-protection rules that apply to you.

@@ -10,6 +10,8 @@ description: >-
 
 # li-reply
 
+> Also apply the **House rules** section of `~/.claude/linkedin/voice.md` (spelling, banned words, approval). Nothing is posted or sent without the user's yes.
+
 The reply thread under your own post is where reach is actually decided. Every
 reply is a second engagement event on the post, and the first hour of replies
 does most of the work. But the value is not equal across comments, so this

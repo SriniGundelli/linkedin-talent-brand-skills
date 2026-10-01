@@ -196,9 +196,15 @@ def main():
     ap.add_argument("compare", nargs="?", help="second file, to show before/after")
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--lexicon", default=LEX)
+    ap.add_argument("--extra", action="append", default=[],
+                    help="add-on lexicon to merge on top (repeatable)")
     args = ap.parse_args()
 
     lex = json.load(open(args.lexicon, encoding="utf-8"))
+    for extra in args.extra:
+        add = json.load(open(extra, encoding="utf-8"))
+        for key in ("words", "phrases", "structures"):
+            lex.setdefault(key, []).extend(add.get(key, []))
     read = lambda p: sys.stdin.read() if p == "-" else open(p, encoding="utf-8").read()
 
     targets = [(args.input, read(args.input))]

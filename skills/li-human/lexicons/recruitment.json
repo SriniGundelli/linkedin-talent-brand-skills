@@ -1,0 +1,139 @@
+{
+  "note": "Job-post jargon and exclusionary wording. Merge with --extra lexicons/recruitment.json. Used by li-job-post. Replacements are starting points; a human decides the final wording.",
+  "words": [
+    {
+      "find": "rockstar",
+      "replace": "strong performer",
+      "family": "recruitment"
+    },
+    {
+      "find": "rock star",
+      "replace": "strong performer",
+      "family": "recruitment"
+    },
+    {
+      "find": "ninja",
+      "replace": "specialist",
+      "family": "recruitment"
+    },
+    {
+      "find": "guru",
+      "replace": "expert",
+      "family": "recruitment"
+    },
+    {
+      "find": "wizard",
+      "replace": "specialist",
+      "family": "recruitment"
+    },
+    {
+      "find": "work hard, play hard",
+      "replace": "clear about the workload",
+      "family": "recruitment"
+    },
+    {
+      "find": "fast-paced environment",
+      "replace": "a busy team",
+      "family": "recruitment"
+    },
+    {
+      "find": "dynamic environment",
+      "replace": "a team that changes priorities with the work",
+      "family": "recruitment"
+    },
+    {
+      "find": "self-starter",
+      "replace": "someone who works without close supervision",
+      "family": "recruitment"
+    },
+    {
+      "find": "passionate",
+      "replace": "interested",
+      "family": "recruitment"
+    },
+    {
+      "find": "competitive salary",
+      "replace": "the salary range",
+      "family": "recruitment"
+    },
+    {
+      "find": "wear many hats",
+      "replace": "cover several areas",
+      "family": "recruitment"
+    },
+    {
+      "find": "hit the ground running",
+      "replace": "get productive quickly",
+      "family": "recruitment"
+    },
+    {
+      "find": "digital native",
+      "replace": "comfortable with digital tools",
+      "family": "recruitment"
+    },
+    {
+      "find": "young and energetic",
+      "replace": "energetic",
+      "family": "recruitment"
+    },
+    {
+      "find": "manpower",
+      "replace": "staffing",
+      "family": "recruitment"
+    },
+    {
+      "find": "salesman",
+      "replace": "salesperson",
+      "family": "recruitment"
+    },
+    {
+      "find": "chairman",
+      "replace": "chair",
+      "family": "recruitment"
+    },
+    {
+      "find": "he or she",
+      "replace": "they",
+      "family": "recruitment"
+    },
+    {
+      "find": "synergy",
+      "replace": "overlap",
+      "family": "recruitment"
+    },
+    {
+      "find": "best-in-class",
+      "replace": "strong",
+      "family": "recruitment"
+    },
+    {
+      "find": "world-class",
+      "replace": "strong",
+      "family": "recruitment"
+    },
+    {
+      "find": "cutting-edge",
+      "replace": "current",
+      "family": "recruitment"
+    },
+    {
+      "find": "exciting opportunity",
+      "replace": "role",
+      "family": "recruitment"
+    }
+  ],
+  "structures": [
+    {
+      "id": "unpaid-range",
+      "regex": "(?i)\\\\b(salary|compensation|pay)\\\\b[^.\\\\n]{0,20}\\\\b(dom|doe|negotiable|competitive|commensurate)\\\\b",
+      "name": "No pay figure",
+      "fix": "Give the range. Pay-transparency laws now require it in many places, and candidates skip roles without one."
+    },
+    {
+      "id": "requirement-wall",
+      "regex": "(?i)\\\\b(\\\\d{2}\\\\+ years|10\\\\+ years|must have all of)\\\\b",
+      "name": "Requirement wall",
+      "fix": "Cut to the 4-5 things the person needs on day one. Long lists screen out strong candidates who match fewer than all of them."
+    }
+  ]
+}
