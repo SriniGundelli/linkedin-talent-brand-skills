@@ -9,7 +9,7 @@ On GitHub press **Fork**, then:
 
 ```bash
 git clone https://github.com/YOUR-USER/linkedin-talent-brand-skills.git
-cd YOUR-FORK
+cd linkedin-talent-brand-skills
 git remote add upstream https://github.com/SriniGundelli/linkedin-talent-brand-skills.git
 python3 scripts/validate.py          # should print OK
 python3 -m unittest discover -s tests
